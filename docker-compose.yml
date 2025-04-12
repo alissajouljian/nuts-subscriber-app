@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   postgres:
     image: postgres:13
@@ -10,7 +12,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
-  nuts:
+  nats:
     image: nats:latest
     ports:
       - "4222:4222"
