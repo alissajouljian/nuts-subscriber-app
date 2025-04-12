@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: nuts_user
+      POSTGRES_PASSWORD: nuts_pass
+      POSTGRES_DB: nuts_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  nuts:
+    image: nats:latest
+    ports:
+      - "4222:4222"
+
+volumes:
+  pgdata:
