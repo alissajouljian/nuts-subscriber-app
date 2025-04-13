@@ -15,7 +15,7 @@ A 3-layered application built for the Software Engineering course. It subscribes
   - [2. Start PostgreSQL and Nuts using Docker Compose](#2-start-postgresql-and-nuts-using-docker-compose)
   - [3. Set up Database Schema](#3-set-up-database-schema)
   - [4. Run the Application](#4-run-the-application)
-- [Tests (Bonus)](#tests)
+- [Tests](#tests)
 - [Dependencies](#dependencies)
 
 
@@ -83,7 +83,7 @@ nuts-subscriber-app/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone Repository
 
