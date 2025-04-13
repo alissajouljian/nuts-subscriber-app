@@ -17,7 +17,6 @@ A 3-layered application built for the Software Engineering course. It subscribes
   - [4. Run the Application](#4-run-the-application)
 - [Tests (Bonus)](#tests-bonus)
 - [Dependencies](#dependencies)
-- [Notes](#notes)
 
 
 
