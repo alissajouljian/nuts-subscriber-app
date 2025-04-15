@@ -3,3 +3,4 @@ CREATE TABLE IF NOT EXISTS messages (
     content TEXT NOT NULL,
     received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
